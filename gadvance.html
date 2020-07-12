@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Advanced Search</title>
+    <link href="advance.css" rel="stylesheet">
+</head>
+<body>
+    <div class="lkcont">
+        <img src="google logo.png" alt="google logo" id="glogo">
+        <ul style="text-align: right;" class="gslinks">
+            <li><a  href="index.html">Google_Search</a></li>
+        </ul>
+    </div>
+    <div style="border-bottom: 1px solid #eeeeee;">
+        <h3>Advanced Search</h3>
+    </div>
+    <p>Find pages with....</p>
+    <div class="formcont">
+        <form action="https://google.com/search">
+            <div class="op">
+                <label for="box1">all these words:</label>
+                <input style="margin-left: 70px;" placeholder="Type the important words here , example: tri-colour rat terrier" type="text" value="" autofocus="autofocus" name="as_q" id="box1" >
+           </div>
+           <div class="op">
+                <label for="box2">this exact word or phrase:</label>
+                <input style="margin-left: 12px;" placeholder="Put exact words in quotes: 'rat terrier'" type="text" name="as_epq" value="" id="box2" >
+           </div>
+           <div class="op">
+                <label for="box3">any of these words:</label>
+                <input style="margin-left: 47px;" type="text" placeholder="Type OR between all the words you want: miniature OR standard" name="as_oq" value="" id="box3" >
+           </div>
+           <div class="op">
+                <label for="box4">none of these words:</label>
+                <input style="margin-left: 38px;" placeholder="Put a minus sign just before words that you don't want: -rodent, -'Jack Russell' " type="text" name="as_eq" value="" id="box4" >
+           </div>
+           <div id="searchbutton">
+                <input name="tbs" type="hidden" value="">
+                <input type="submit" value="Advanced Search"id="gsearch">
+           </div>
+        </form>
+    </div>
+</body>
+</html>
